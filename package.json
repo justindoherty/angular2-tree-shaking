@@ -1,0 +1,34 @@
+{
+  "name": "angular2-tree-shaking",
+  "version": "1.0.0",
+  "description": "Angular 2 Tree Shaking Demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Doherty",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "typescript": "^2.1.5",
+    "webpack": "2.2.0-rc.4",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.3",
+    "@angular/compiler": "^2.4.3",
+    "@angular/compiler-cli": "^2.4.3",
+    "@angular/core": "^2.4.3",
+    "@angular/http": "^2.4.3",
+    "@angular/platform-browser": "^2.4.3",
+    "@angular/platform-browser-dynamic": "^2.4.3",
+    "@angular/platform-server": "^2.4.3",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.3",
+    "zone.js": "0.7.4"
+  }
+}
